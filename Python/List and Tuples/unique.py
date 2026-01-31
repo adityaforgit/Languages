@@ -1,0 +1,5 @@
+tup = (1, 2, 2, 3, 4, 4, 5)
+unique = set([x for x in tup if tup.count(x) == 1])
+duplicates = set([x for x in tup if tup.count(x) > 1])
+print("Unique elements:", unique)
+print("Duplicate elements:", duplicates)
