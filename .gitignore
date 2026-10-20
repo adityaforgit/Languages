@@ -1,0 +1,11 @@
+*.exe
+*.out
+*.o
+*.class
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
